@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="twitter:widgets:theme" content="dark">
+    <title>Banking App Project</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css" integrity="sha512-uTp+StvW09bDiFJW+ByrrTqVhVaeY2jps4cTmkYBIlHr1GyYFafWBa5ZNXspgI5TGVZ8nolmuCm6qghQm9vpuQ== sha384-RFMlFgjINxts1isIjP27W/ag11usIz5WNg2H6o2xbAhIxoSRCqzlkFqCPkkgXqoW">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw== sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+     <!-- mobile pop-up menu nav -->
+     <div class="menu-wrap">
+        <input type="checkbox" role="checkbox" class="toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                        <li><a href="index.html">Portfolio</a></li>
+                        <li><a href="index.html">About Me</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/gabrielle-fitzgerald-22b8bb190/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                            <a href="https://github.com/GabFitzgerald/" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                            <a href="https://twitter.com/GabFitzgerald" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>          
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- header -->
+    <header>
+        <h1>Gab Fitzgerald</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Portfolio</a></li>
+                <li><a href="index.html">About Me</a></li> 
+                <!-- sends to about me section on same page -->
+                <li><a href="resume.html">Resume</a></li>
+                <!-- links to separate resume page -->
+                <li> 
+                    <a href="https://www.linkedin.com/in/gabrielle-fitzgerald-22b8bb190/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                    <a href="https://github.com/GabFitzgerald/" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                    <a href="https://twitter.com/GabFitzgerald" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>  
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <article class="content">
+        <nav name="go-back"><a href="index.html">Go back to all projects</a></nav>
+        <h2>Banking App: My first project</h2>
+        <h3>Ruby</h3>
+        <p>I completed this project after my first few days at Coder Academy and 3 days of learning Ruby.</p>
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Week 1 at <a href="https://twitter.com/CoderAcademy_au?ref_src=twsrc%5Etfw">@CoderAcademy_au</a> done!<br><br>Never thought I&#39;d be able to make this a week ago but still a long journey ahead. <a href="https://t.co/WmK4zzln13">pic.twitter.com/WmK4zzln13</a></p>&mdash; Gab Fitzgerald (@GabFitzgerald) <a href="https://twitter.com/GabFitzgerald/status/1233524644956790784?ref_src=twsrc%5Etfw">February 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <p>The task was to implement as simple banking app. The features to include were:</p>
+        <ul>
+            <li>Show the balance</li>
+            <li>Display a welcome message</li>
+            <li>Ask the user what they would like to do (e.g. check balance)</li>
+            <li>Error handle invlaid user input</li>
+            <li>Ask for a password before proceeding</li>
+            <li>Add deposit feature and update balance</li> 
+            <li>Loop the program so user can deposit over and over</li>
+            <li>Clear the screen between loops</li>
+            <li>Add a withdraw feature and update balance</li>
+            <li>Prevent user from withdrawing more than their balance</li>
+        </ul>
+        <img src="media/banking_app_demo_still.png" alt="ruby terminal banking app demo still" />
+        <h3>Biggest challenges encountered</h3>
+        <ul>
+            <li>Giving the user 3 attempts at the password then denying access</li>
+            <li>Using Ruby methods for the first time</li>
+            <li>Bringing together mutliple features while keeping the application working</li>
+        </ul>
+        <img src="media/banking_app_demo_password_limit_demo.png" alt="ruby terminal banking app demo password limit still" />
+        <section class="what-i-learned">
+            <h3>What I learned doing this project</h3>
+            <ul>
+                <li>Building a compelte application idea and putting together many features</li>
+                <li>First exposure to user input error handeling</li>
+                <li><code>sleep()</code> function in Ruby</li>
+                <li>Continuous looping</li>
+            </ul>
+        </section>    
+        <section class="call-to-action">
+            <h3>Questions?</h3>
+            <p>If you have any questions, please reach out or say hello.</p>
+            <a href="mailto:gabfitzgeralddeveloper@gmail.com" class="email-link">gabfitzgeralddeveloper@gmail.com</a>
+            <br>
+            <!-- githublink -->
+            <a href="https://github.com/GabFitzgerald/banking_app" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+        </section>
+        <nav class="projects-nav">
+            <h3><a href="bachelor_of_science.html" class="previous-project-nav">Previous Project</a></h3>
+            <h3><a href="terminal_ear_training_project.html" class="next-project-nav">Next Project</a></h3>
+            <br>
+            <h2><a href="index.html">Back to all projects</a></h2>
+        </nav>
+    </article>
+    <footer>
+        <nav>
+            <a href="#top">
+                <i class="fa fa-chevron-circle-up fa-3x"></i>
+            </a>
+        </nav>
+        <div class="social-links"> 
+            <a href="https://www.linkedin.com/in/gabrielle-fitzgerald-22b8bb190/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/GabFitzgerald/" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+            <a href="https://twitter.com/GabFitzgerald" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>  
+        </div>
+        <p>&#169; Gabrielle Fitzgerald: Made with HTML & CSS</p>
+    </footer>
+</body>
+</html>
